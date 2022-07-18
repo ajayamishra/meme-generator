@@ -1,8 +1,11 @@
+import TopNavBar from 'components/navigation/top-bar'
+
 function App() {
   return (
-    <div>
+    <>
+      <TopNavBar />
       MEME GENERATOR Updated!!!
-    </div>
+    </>
   )
 }
 
