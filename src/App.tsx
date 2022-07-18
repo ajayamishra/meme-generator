@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      MEME GENERATOR
+      MEME GENERATOR Updated!!!
     </div>
   )
 }
