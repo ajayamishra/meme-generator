@@ -1,0 +1,88 @@
+@import 'assets/styles/variables';
+
+.content-container {
+  height: calc(100% - $topbar-height);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background: $body-background;
+  // align-items: flex-start;
+  min-height: calc(100vh - $topbar-height - 2px);
+
+  .options-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.one-to-one {
+  width: 42.4264px;
+  height: 42.4264px;
+}
+
+.sixteen-to-nine {
+  width: 52.2945px;
+  height: 29.4157px;
+}
+
+.nine-to-sixteen {
+  width: 29.4157px;
+  height: 52.2945px;
+}
+
+.four-to-five {
+  width: 37.4817px;
+  height: 46.8521px;
+}
+
+.one-to-one:hover, .nine-to-sixteen:hover, .four-to-five:hover, .sixteen-to-nine:hover {
+  background-color: #a10413;
+}
+
+.image-options-container, .file-upload-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-options-container{
+  border: 2px dashed $color-grey-5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.image-options-content, .file-upload-content {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.file-options {
+  padding: 0 6px;
+  border: 0 !important;
+}
+
+.sample_options {
+  padding: 3px;
+  padding-right: 5px;
+  border: 0 !important;
+}
+
+.file-options:hover, .sample_options:hover {
+  background-color: rgb(101, 101, 101);
+  transform: scale(1.10);
+}

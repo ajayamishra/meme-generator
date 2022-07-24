@@ -1,0 +1,15 @@
+@import 'assets/styles/variables';
+
+.identifier-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 1px solid $color-grey-6;
+  background-color: $color-grey-4;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  justify-content: center;
+  gap: 5px;
+  transition: .2s;
+}

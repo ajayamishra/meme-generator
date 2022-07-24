@@ -1,10 +1,12 @@
+@import 'assets/styles/variables';
+
 .top-navbar-container {
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  height: 50px;
-  background-color: #dc3545;
-  border-bottom: 2px solid #a10413;
+  height: $topbar-height;
+  background-color: $topbar-background-color;
+  border-bottom: 2px solid $topbar-border-color;
   align-items: center;
 
   .left-container {
@@ -25,12 +27,14 @@
     margin-right: 15px;
 
     .right-menu-item {
+      border-radius: 3px;
       display: flex;
       align-items: center;
+      gap: 5px;
       height: 32px;
       justify-content: center;
       width: 100px;
-      background-color: #a10413;
+      background-color: $topbar-border-color;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
   }
